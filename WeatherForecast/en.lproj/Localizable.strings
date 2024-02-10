@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  WeatherForecast
+
+  Created by Maxim Kucherov on 15/12/2023.
+  
+*/
+
+"lang" = "en";
+"Map" = "Map";
+"Search" = "Search";
+"Favorites" = "Favorites";
+"Standard" = "Standard";
+"Satellite" = "Satellite";
+"Feels like" = "Feels like";
+"Add to favorite" = "Add to favorite";
+"Delete from favorite" = "Delete from favorite";
+"monday" = "Monday";
+"tuesday" = "Tuesday";
+"wednesday" = "Wednesday";
+"thursday" = "Thursday";
+"friday" = "Friday";
+"saturday" = "Saturday";
+"sunday" = "Sunday";
+"has been removed from favorites" = "has been removed from favorites";
+"has been added to favorites" = "has been added to favorites";
+"Ok" = "Ok";

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23B92" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CityLocationEntity" representedClassName="CityLocationEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoordEntity" representedClassName="CoordEntity" parentEntity="WeatherDetailsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FeelsLikeEntity" representedClassName="FeelsLikeEntity" syncable="YES" codeGenerationType="class"/>
+    <entity name="MainEntity" representedClassName="MainEntity" parentEntity="WeatherDetailsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="humidity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MainFeelsEntity" representedClassName="MainFeelsEntity" parentEntity="FeelsLikeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="feels_like" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SysEntity" representedClassName="SysEntity" parentEntity="WeatherDetailsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="country" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeatherDetailsEntity" representedClassName="WeatherDetailsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeatherEntity" representedClassName="WeatherEntity" parentEntity="WeatherDetailsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionCopy" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="main" optional="YES" attributeType="String"/>
+    </entity>
+</model>

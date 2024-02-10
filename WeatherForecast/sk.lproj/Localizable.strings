@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  WeatherForecast
+
+  Created by Maxim Kucherov on 15/12/2023.
+  
+*/
+
+"lang" = "sk";
+"Map" = "Mapa";
+"Search" = "Vyhľadávanie";
+"Favorites" = "Obľúbený";
+"Standard" = "Štandard";
+"Satellite" = "Satelitný";
+"Feels like" = "Cíti sa ako";
+"Add to favorite" = "Pridať do obľúbených";
+"Delete from favorite" = "Odstrániť z obľúbených";
+"monday" = "Pondelok";
+"tuesday" = "Utorok";
+"wednesday" = "Streda";
+"thursday" = "Štvrtok";
+"friday" = "Piatok";
+"saturday" = "Sobota";
+"sunday" = "Nedeľa";
+"has been removed from favorites" = "bol odstránený z obľúbených";
+"has been added to favorites" = "bol pridaný do obľúbených";
+"Ok" = "Dobre";
